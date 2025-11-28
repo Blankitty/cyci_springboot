@@ -33,6 +33,12 @@ dependencies {
 
     // AOP 추가
     implementation 'org.springframework.boot:spring-boot-starter-aop'
+
+    // MySQL Driver
+    implementation 'com.mysql:mysql-connector-j:8.4.0'
+
+    // Mybatis
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
 }
 
 tasks.named('test') {
